@@ -1,2 +1,4 @@
 # Cronometro
- Apenas um cronõmetro
+ Apenas um cronometro
+
+https://leomartinez013.github.io/Cronometro/
