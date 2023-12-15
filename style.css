@@ -1,0 +1,99 @@
+@font-face{
+    font-family: "Digital";
+    src: url('ds_digital/DS-DIGIB.TTF');
+}
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EBECEE;
+    background-image: url(Assets/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
+    background-position: center;
+}
+header {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #EBECEE;
+}
+header > h1 {
+    padding-top: 0.4rem;
+    color: #175cff;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 100vh;
+}
+.linha1 {
+    display: flex;
+    font-size: 80px;
+    font-weight: bold;
+    color: #333;
+    justify-content: center; /* Adicionado para centralizar horizontalmente */
+}
+.linha2 {
+    display: flex;
+    font-size: 30px; /* Reduzido para um tamanho menor */
+    color: #525763;
+    justify-content: center; /* Adicionado para centralizar horizontalmente */
+}
+.time {
+    font-family: Digital;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+    color: #172953;
+    min-width: 90px;
+}
+
+.separator {
+    font-size: 60px;
+    padding: 0 10px;
+    color: #525763;
+}
+
+#milliseconds {
+    font-size: 30px;
+    color: #525763;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+#startBtn {
+    background-color: #175cff;
+    color: #fff;
+}
